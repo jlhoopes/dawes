@@ -106,6 +106,9 @@
 				</div>
 			</div>
 			<div class="row align-center padding-top-bottom-30">
+				<?
+					date_default_timezone_set('America/New_York');
+				?>
 				<span class="copyright">© Copyright <?php echo date("Y"); ?> JLHoopes Design</span>
 			</div>
 		</div>
