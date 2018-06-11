@@ -12,7 +12,8 @@
 					<div class="column column-1-3">
 						<ul class="contact-details-list">
 							<li class="sl-small-location">
-								<p>Lancaster OH, 43130</p>
+								<p>Located:<br>
+									Lancaster OH, 43130</p>
 							</li>
 						</ul>
 					</div>
@@ -130,7 +131,8 @@
 		<script type="text/javascript" src="js/jquery.prettyPhoto.js"></script>
 		<script type="text/javascript" src="js/jquery.qtip.min.js"></script>
 		<script type="text/javascript" src="js/jquery.blockUI.min.js"></script>
-		<script type="text/javascript" src="//maps.google.com/maps/api/js?key=AIzaSyDYLxzvaUk3b_n4VfpYzIK-phbtIzXrK8c"></script>
+		<?php require_once("../secure/api_key.php"); ?>
+		<script type="text/javascript" src="//maps.google.com/maps/api/js?key=<?php echo $api_key; ?>"></script>
 		<script type="text/javascript" src="js/main.js"></script>
 		<script type="text/javascript" src="js/odometer.min.js"></script>
 		<?php

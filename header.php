@@ -28,6 +28,7 @@
 		<link rel="stylesheet" type="text/css" href="style/site.css">
 		<link rel="shortcut icon" href="images/favicon.ico">
 		<link rel="stylesheet" href="https://i.icomoon.io/public/temp/599b2ae2c4/JLLogo/style.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Quicksand" rel="stylesheet">
 	</head>
 	<!--<body class="image-1">
 	<body class="image-1 overlay">
@@ -157,14 +158,14 @@
 				</div>
 				<a href="#" class="header-toggle template-arrow-up"></a>
 			</div>
-			<div class="header-container<?php echo (isset($_COOKIE['re_menu_type']) ? ' ' . $_COOKIE['re_menu_type'] : '');?>">
+			<div class="header-container sticky<?php echo (isset($_COOKIE['re_menu_type']) ? ' ' . $_COOKIE['re_menu_type'] : '');?>">
 			<!--<div class="header-container sticky">-->
 				<div class="vertical-align-table column-1-1">
 					<div class="header clearfix">
 						<div class="logo vertical-align-cell">
 							<h1><a href="?page=home" title="J&L Professional Services">
 								<span class="icon-JLLogo"></span>
-								<span class="text-fallback">J&L </span><span class="logo-text">Professional<br>Services LLC.</span></a></h1>
+								<span class="text-fallback">J&L </span><span class="logo-text">Professional <br class="phone_hide">Services</span></a></h1>
 						</div>
 						<a href="#" class="mobile-menu-switch vertical-align-cell">
 							<span class="line"></span>

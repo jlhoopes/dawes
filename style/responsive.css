@@ -349,7 +349,7 @@
 	/* --- contact details --- */
 	.contact-details li
 	{
-		padding: 15px 12px;
+		padding: 15px 10px;
 	}
 	.contact-details li:last-child
 	{
@@ -959,6 +959,11 @@
 		bottom: 10px;
 	}
 }
+@media screen and (max-width:736px)
+{
+.row-3-3 .column-1-3 {
+    width: 350px;
+}
 @media screen and (max-width:479px)
 {
 	/* --- site container --- */
@@ -1384,4 +1389,9 @@
 	{
 		-webkit-text-size-adjust: none;
 	}
+}
+@media screen and (max-width: 320px)
+{
+.row-3-3 .column-1-3 {
+    width: 310px;
 }

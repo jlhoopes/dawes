@@ -53,7 +53,7 @@ require_once("contact_form/config.php");
 				<div id="interior-renovation" class="margin-top-30">
 					<form class="contact-form cost-calculator-container" method="post" action="contact_form/contact_form.php">
 						<div class="cost-calculator-box clearfix">
-							<label>Area to be J&L Professional Servicesd in Square Feet:</label>
+							<label>Area to be renovated in Square Feet:</label>
 							<div class="cost-slider-container">
 								<input id="ir-square-feet" class="cost-slider-input" name="square-feet" type="number" value="300">
 								<div class="cost-slider" data-value="300" data-step="10" data-min="10" data-max="3000" data-input="ir-square-feet"></div>
@@ -63,6 +63,7 @@ require_once("contact_form/config.php");
 							<label>Walls &amp; Ceilings:</label>
 							<select name="walls" id="ir-walls" class="cost-dropdown">
 								<option value="" selected="selected">Choose...</option>
+								<option value="0">None</option>
 								<option value="2">Painting</option>
 								<option value="2.3">Painting + Minor Repairs</option>
 								<option value="2.5">Painting + Decorative Stone</option>
@@ -76,6 +77,7 @@ require_once("contact_form/config.php");
 							<label>Floors:</label>
 							<select name="floors" id="ir-floors" class="cost-dropdown">
 								<option value="" selected="selected">Choose...</option>
+								<option value="0">None</option>
 								<option value="1.5">Hardwood Flooring</option>
 								<option value="2.5">Bamboo Flooring</option>
 								<option value="2.6">Vinyl Tile Flooring</option>
@@ -88,17 +90,17 @@ require_once("contact_form/config.php");
 						<div class="cost-calculator-box clearfix">
 							<label>Interior Doors to Replace:</label>
 							<div class="cost-slider-container">
-								<input id="ir-doors" class="cost-slider-input" name="doors" type="number" value="6">
-								<input id="ir-doors-value" type="hidden" value="1500" data-default="1500">
-								<div class="cost-slider" data-value="6" data-step="1" data-min="0" data-max="10" data-input="ir-doors" data-value-input="ir-doors-value" data-price="250"></div>
+								<input id="ir-doors" class="cost-slider-input" name="doors" type="number" value="0">
+								<input id="ir-doors-value" type="hidden" value="0" data-default="0">
+								<div class="cost-slider" data-value="0" data-step="1" data-min="0" data-max="10" data-input="ir-doors" data-value-input="ir-doors-value" data-price="250"></div>
 							</div>
 						</div>
 						<div class="cost-calculator-box clearfix">
 							<label>Windows to Replace:</label>
 							<div class="cost-slider-container">
-								<input id="ir-windows" class="cost-slider-input" name="windows" type="number" value="4">
-								<input id="ir-windows-value" type="hidden" value="800" data-default="800">
-								<div class="cost-slider" data-value="4" data-step="1" data-min="0" data-max="10" data-input="ir-windows" data-value-input="ir-windows-value" data-price="200"></div>
+								<input id="ir-windows" class="cost-slider-input" name="windows" type="number" value="0">
+								<input id="ir-windows-value" type="hidden" value="0" data-default="0">
+								<div class="cost-slider" data-value="0" data-step="1" data-min="0" data-max="10" data-input="ir-windows" data-value-input="ir-windows-value" data-price="250"></div>
 							</div>
 						</div>
 						<div class="cost-calculator-box cost-calculator-sum sl-small-wallet clearfix">
