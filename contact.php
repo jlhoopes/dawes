@@ -4,13 +4,13 @@ require_once("contact_form/config.php");
 <div class="theme-page padding-bottom-66">
 	<div class="clearfix">
 		<div class="row full-width">
-			<div class="contact-map" id="map" data-scroll-wheel="0" data-draggable="0"></div>
+			<div class="contact-map" id="map" data-scroll-wheel="0" data-draggable="0" data-zoomable="0" data-fs="0"></div>
 		</div>
 		<div class="row page-margin-top">
 			<div class="column column-1-3">
 				<ul class="features-list">
 					<li class="sl-small-location">
-						<p>Lancaster, OH 43130</p>
+						<p>Located:<br>Lancaster, OH 43130</p>
 					</li>
 				</ul>
 			</div>

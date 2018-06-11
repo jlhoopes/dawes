@@ -861,6 +861,8 @@ jQuery(document).ready(function($){
 			mapTypeControl: false,
 			scrollwheel: parseInt($("#map").data("scroll-wheel"), 10),
 			draggable: parseInt($("#map").data("draggable"), 10),
+      zoomControl: parseInt($("#map").data("zoomable"), 10),
+      fullscreenControl: parseInt($("#map").data("fs"), 10),
 			styles: [ { "featureType": "water", "elementType": "geometry", "stylers": [ { "color": "#8ccaf1" } ] },{ "featureType": "poi", "stylers": [ { "visibility": "off" } ] },{ "featureType": "transit", "stylers": [ { "visibility": "off" } ] },{ "featureType": "water", "elementType": "labels", "stylers": [ { "color": "#ffffff" }, { "visibility": "simplified" } ] } ]
 		};
 

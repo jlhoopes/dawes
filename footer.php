@@ -106,7 +106,7 @@
 				</div>
 			</div>
 			<div class="row align-center padding-top-bottom-30">
-				<span class="copyright">© Copyright 2018 JLHoopes Design</span>
+				<span class="copyright">© Copyright <?php echo date("Y"); ?> JLHoopes Design</span>
 			</div>
 		</div>
 		<a href="#top" class="scroll-top animated-element template-arrow-up" title="Scroll to top"></a>
