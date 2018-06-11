@@ -28,8 +28,8 @@
 			</div>
 			<?php endif; ?>
 			<div class="row gray full-width page-padding-top padding-bottom-50">
-				<div class="row row-4-4">
-					<div class="column column-1-4">
+				<div class="row row-3-3">
+					<div class="column column-1-3">
 						<h6 class="box-header">About Us</h6>
 						<p class="description t1">Founded by Jeff Dawes back in 2000. J&L Professional Services has estabilished itself as one of the greatest and prestigious providers of construction focused interior renovation services and building.</p>
 						<ul class="social-icons yellow margin-top-26">
@@ -47,7 +47,7 @@
 							</li>
 						</ul>
 					</div>
-					<div class="column column-1-4">
+					<div class="column column-1-3">
 						<h6 class="box-header">Our Services</h6>
 						<ul class="list margin-top-20">
 							<li class="template-bullet">Interior Renovation</li>
@@ -58,7 +58,7 @@
 							<li class="template-bullet">Solar Systems</li>
 						</ul>
 					</div>
-					<div class="column column-1-4">
+					<div class="column column-1-3">
 						<h6 class="box-header">Categories</h6>
 						<ul class="taxonomies margin-top-30">
 							<li><a href="?page=category&amp;cat=build" title="BUILD">BUILD</a></li>
@@ -73,6 +73,7 @@
 							<li><a href="?page=category&amp;cat=tiling" title="TILING">TILING</a></li>
 						</ul>
 					</div>
+					<!--
 					<div class="column column-1-4">
 						<h6 class="box-header">Latest Posts</h6>
 						<ul class="blog small margin-top-30">
@@ -100,6 +101,7 @@
 							</li>
 						</ul>
 					</div>
+				-->
 				</div>
 			</div>
 			<div class="row align-center padding-top-bottom-30">
